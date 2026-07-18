@@ -263,26 +263,13 @@
             <i data-lucide="wifi-off" style="color: var(--accent-teal); flex-shrink: 0; margin-top: 3px;"></i>
             <span><strong>Offline Learning:</strong> Core lessons run entirely offline. Your child will never be redirected to external websites, keeping their attention focused.</span>
           </li>
-          <li style="display: flex; gap: 10px; align-items: flex-start;">
-            <i data-lucide="lock" style="color: var(--accent-teal); flex-shrink: 0; margin-top: 3px;"></i>
-            <span><strong>Parental Security Gate:</strong> A secure math validation gate prevents kids from changing app properties, turning on tracks, or exiting settings.</span>
-          </li>
         </ul>
       </div>
 
-      <div class="safety-visual">
-        <div class="parental-gate-mock">
-          <div class="parental-lock-header">
-            <i data-lucide="lock" style="display: inline-block; vertical-align: middle; width: 18px; margin-right: 5px; color: var(--primary)"></i> Parent Gate Lock
-          </div>
-          <p style="font-size: 0.85rem; color: var(--text-muted)">Solve this question to unlock details:</p>
-          <div class="parental-question" id="parental-question">7 x 8 = ?</div>
-          <div class="parental-inputs">
-            <input type="number" id="gate-answer" class="parental-input" placeholder="??">
-          </div>
-          <button class="parental-submit" id="gate-submit">Unlock Info</button>
-          <p id="gate-message" style="font-size: 0.85rem; font-weight: 600; margin-top: 5px; height: 1.2rem;"></p>
-        </div>
+      <div class="safety-visual" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 3rem 2rem;">
+        <i data-lucide="shield" style="width: 80px; height: 80px; color: var(--accent-teal);"></i>
+        <h3 style="font-family: 'Quicksand', sans-serif; font-size: 1.5rem; color: var(--text-dark); margin-top: 0.5rem;">Family Friendly</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; text-align: center; max-width: 280px;">Designed to offer a safe, distraction-free environment for early preschool learning.</p>
       </div>
     </div>
   </section>
@@ -455,44 +442,7 @@
       updateStoryCard();
     }, 7000);
 
-    // Parental Math Gate Validation
-    const gateQuestion = document.getElementById('parental-question');
-    const gateAnswer = document.getElementById('gate-answer');
-    const gateSubmit = document.getElementById('gate-submit');
-    const gateMessage = document.getElementById('gate-message');
 
-    let num1 = 6;
-    let num2 = 8;
-    let correctAnswer = num1 * num2;
-
-    function generateNewQuestion() {
-      num1 = Math.floor(Math.random() * 8) + 2; // 2 to 9
-      num2 = Math.floor(Math.random() * 8) + 2; // 2 to 9
-      correctAnswer = num1 * num2;
-      gateQuestion.innerText = `${num1} x ${num2} = ?`;
-      gateAnswer.value = '';
-    }
-
-    // Set initial question
-    generateNewQuestion();
-
-    gateSubmit.addEventListener('click', () => {
-      const userAns = parseInt(gateAnswer.value);
-      if (userAns === correctAnswer) {
-        gateMessage.style.color = 'var(--accent-teal)';
-        gateMessage.innerText = '✓ Success! Safe Parental settings unlocked.';
-        setTimeout(() => {
-          gateMessage.innerText = '';
-          generateNewQuestion();
-        }, 3000);
-      } else {
-        gateMessage.style.color = 'var(--accent-pink)';
-        gateMessage.innerText = '❌ Incorrect. Please try again!';
-        setTimeout(() => {
-          gateMessage.innerText = '';
-        }, 2000);
-      }
-    });
   </script>
 </body>
 </html>
