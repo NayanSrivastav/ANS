@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BolBol - The Fun Bilingual Learning App for Kids 🧸</title>
+  <meta name="description" content="BolBol is an interactive, multi-sensory educational app for kids under 6. Learn alphabets, numbers, colors, and enjoy audio-narrated stories in English and Hindi.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Shapes -->
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="BolBol Logo" class="logo-img">
+      <span class="brand-name">BolBol</span>
+    </div>
+    
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#showcase">Learning Suite</a></li>
+        <li><a href="#storybook">Storybook</a></li>
+        <li><a href="#safety">Safety</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="#download" class="cta-nav">Download Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="badge-tag">🧸 Play & Learn</div>
+      <h1>Where Learning <span>Speaks to Kids</span></h1>
+      <p class="hero-description">
+        Welcome to <strong>BolBol</strong> (translates to <em>"Speak Speak!"</em>), a playful and interactive companion designed for children under 6. Help your little ones master alphabets, numbers, and colors through engaging games and beautiful bilingual audio stories.
+      </p>
+      
+      <div class="hero-ctas">
+        <a href="#download" class="btn btn-primary">
+          <i data-lucide="play"></i> Get on Google Play
+        </a>
+        <a href="#features" class="btn btn-secondary">
+          Explore Features
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <!-- Phone Mockup Container -->
+      <div class="phone-mockup">
+        <div class="phone-header"></div>
+        <div class="phone-screen">
+          <img src="assets/logo.png" alt="BolBol Logo" class="phone-app-logo">
+          <div class="phone-app-name">BolBol</div>
+          <div class="phone-app-tag">Bilingual Kids Learning</div>
+          <div class="phone-button">Start Playing!</div>
+        </div>
+      </div>
+      
+      <!-- Floating Badges -->
+      <div class="floating-element float-1">A</div>
+      <div class="floating-element float-2">📚</div>
+      <div class="floating-element float-3">5</div>
+    </div>
+  </section>
+
+  <!-- Highlights / Quick Stats -->
+  <section class="section" style="padding-top: 0; padding-bottom: 2rem;">
+    <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: center; gap: 1.5rem;">
+      <div style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid #F1F5F9;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🗣️</div>
+        <h4 style="font-family: 'Quicksand', sans-serif;">English & Hindi</h4>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Seamless native switching</p>
+      </div>
+      <div style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid #F1F5F9;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎮</div>
+        <h4 style="font-family: 'Quicksand', sans-serif;">Educational Games</h4>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Spelling, puzzles & sound matcher</p>
+      </div>
+      <div style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid #F1F5F9;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">✍️</div>
+        <h4 style="font-family: 'Quicksand', sans-serif;">Tracing Canvas</h4>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Interactive crayon drawing</p>
+      </div>
+      <div style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid #F1F5F9;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔒</div>
+        <h4 style="font-family: 'Quicksand', sans-serif;">100% Safe</h4>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Ad-free & fully offline</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <section class="section" id="features">
+    <div class="section-header">
+      <h2>Designed for Joyful Learning</h2>
+      <p>Every corner of BolBol is custom-tailored with playful elements, bright aesthetics, and clean layouts that kids love and parents trust.</p>
+    </div>
+
+    <div class="features-grid">
+      <!-- Feature 1 -->
+      <div class="feature-card">
+        <div class="feature-icon-container icon-purple">
+          <i data-lucide="languages"></i>
+        </div>
+        <h3>Bilingual Foundation</h3>
+        <p>Full support for both English and Hindi. Kids can instantly toggle between languages, learning correct phonetic models and script symbols for both alphabets (A-Z and Varnamala).</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-card">
+        <div class="feature-icon-container icon-orange">
+          <i data-lucide="gamepad-2"></i>
+        </div>
+        <h3>Playful Game Suite</h3>
+        <p>Interactive games like **Word Builder** (drag-and-drop spelling), **Shape Puzzle** (fitting shapes onto targets), and **Sound Matcher** reinforce vocabulary and memory through active participation.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-card">
+        <div class="feature-icon-container icon-pink">
+          <i data-lucide="pen-tool"></i>
+        </div>
+        <h3>Crayon Tracing Canvas</h3>
+        <p>A tactile, multi-colored writing canvas overlays character lessons. Faint dotted targets guide your child's fingers to practice drawing letters and numbers dynamically.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-card">
+        <div class="feature-icon-container icon-teal">
+          <i data-lucide="volume-2"></i>
+        </div>
+        <h3>Premium AI Narration</h3>
+        <p>Utilizing high-fidelity ElevenLabs voice models, our storybook reads out stories in a warm, natural human-like voice, helping child pronunciation and reading comprehension.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Suite Showcase -->
+  <section class="section" id="showcase">
+    <div class="section-header">
+      <h2>Explore the Learning Modules</h2>
+      <p>BolBol is built on early childhood development principles, dividing topics into chewable, color-coded modules.</p>
+    </div>
+
+    <div class="showcase-container">
+      <div class="showcase-visual">
+        <div class="showcase-img-card">
+          <img src="assets/letter_a.webp" alt="Letter A Example">
+          <span>Letter Hunt</span>
+        </div>
+        <div class="showcase-img-card">
+          <img src="assets/number_five.webp" alt="Number 5 Counting Example">
+          <span>Number Counting</span>
+        </div>
+      </div>
+
+      <div class="showcase-content">
+        <div class="showcase-item">
+          <div class="showcase-num">01</div>
+          <div class="showcase-text">
+            <h4>Interactive Alphabets</h4>
+            <p>English and Hindi vowels, consonants, and word associations accompanied by kid-friendly illustrations and crystal-clear pronunciation models.</p>
+          </div>
+        </div>
+
+        <div class="showcase-item">
+          <div class="showcase-num">02</div>
+          <div class="showcase-text">
+            <h4>Numbers & Colors Grid</h4>
+            <p>From 1-10 counting arrays to vibrant color matching boards, teaching visual matching and number representations step by step.</p>
+          </div>
+        </div>
+
+        <div class="showcase-item">
+          <div class="showcase-num">03</div>
+          <div class="showcase-text">
+            <h4>Sensory Sound Engine</h4>
+            <p>A hybrid audio setup uses high-quality vocal clips. If connection drops, it automatically routes through local offline Text-To-Speech, ensuring learning never pauses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Storybook Detail Showcase -->
+  <section class="section stories-preview-bg" id="storybook" style="max-width: 100%;">
+    <div class="section-header">
+      <h2>The Whimsical Storybook Library</h2>
+      <p>Original, moralistic, and humorous illustrated books for bedtime or playtime, completely voiced in dual languages.</p>
+    </div>
+
+    <div class="story-carousel-container">
+      <div class="story-card-wrapper">
+        <div class="story-card" id="story-card">
+          <div class="story-img-side">
+            <span class="story-badge" id="story-genre">Fables</span>
+            <img src="assets/story_cats.webp" alt="Coco the flying cat" id="story-img">
+          </div>
+          <div class="story-text-side">
+            <div class="story-audio-visualizer">
+              <i data-lucide="music" class="visualizer-icon"></i>
+              <div class="audio-bars">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+                <div class="bar bar4"></div>
+              </div>
+              <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-left: 5px;">Narrator Active</span>
+            </div>
+            
+            <h3 class="story-title" id="story-title">The Cat Who Wanted to Fly</h3>
+            <p class="story-extract" id="story-excerpt">
+              "Once upon a time, Coco the little orange cat stared up at the skies. 'If birds can fly with wings, why can't I?' Coco wondered. He constructed leaf-wings and jumped from the sofa..."
+            </p>
+            
+            <div style="display: flex; gap: 10px; margin-top: 1rem;">
+              <button class="btn btn-secondary" id="lang-en-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem; background: var(--primary); color: white;">English</button>
+              <button class="btn btn-secondary" id="lang-hi-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem;">Hindi (हिंदी)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dots selector -->
+      <div class="carousel-dots">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety & Controls Section -->
+  <section class="section" id="safety">
+    <div class="safety-split">
+      <div class="safety-content">
+        <div class="badge-tag" style="background: rgba(16, 185, 129, 0.1); color: var(--accent-teal);">🔒 Kid-Safe Zone</div>
+        <h2>Parental Peace of Mind</h2>
+        <p>
+          We know digital security is the top priority for parents. BolBol is designed with strict boundaries to protect kids:
+        </p>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; margin-top: 0.5rem;">
+          <li style="display: flex; gap: 10px; align-items: flex-start;">
+            <i data-lucide="shield-check" style="color: var(--accent-teal); flex-shrink: 0; margin-top: 3px;"></i>
+            <span><strong>No Personal Information:</strong> We do not track, store, or transmit any identifiers, making our application completely COPPA compliant.</span>
+          </li>
+          <li style="display: flex; gap: 10px; align-items: flex-start;">
+            <i data-lucide="badge-percent" style="color: var(--accent-teal); flex-shrink: 0; margin-top: 3px;"></i>
+            <span><strong>100% Ad-Free:</strong> No popups, banners, or visual interruptions. Your child will never trigger unintentional purchases or view unwanted scripts.</span>
+          </li>
+          <li style="display: flex; gap: 10px; align-items: flex-start;">
+            <i data-lucide="lock" style="color: var(--accent-teal); flex-shrink: 0; margin-top: 3px;"></i>
+            <span><strong>Parental Security Gate:</strong> A secure math validation gate prevents kids from changing app properties, turning on tracks, or exiting settings.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="safety-visual">
+        <div class="parental-gate-mock">
+          <div class="parental-lock-header">
+            <i data-lucide="lock" style="display: inline-block; vertical-align: middle; width: 18px; margin-right: 5px; color: var(--primary)"></i> Parent Gate Lock
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted)">Solve this question to unlock details:</p>
+          <div class="parental-question" id="parental-question">7 x 8 = ?</div>
+          <div class="parental-inputs">
+            <input type="number" id="gate-answer" class="parental-input" placeholder="??">
+          </div>
+          <button class="parental-submit" id="gate-submit">Unlock Info</button>
+          <p id="gate-message" style="font-size: 0.85rem; font-weight: 600; margin-top: 5px; height: 1.2rem;"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Call-to-Action -->
+  <section class="section" id="download" style="text-align: center; background: radial-gradient(circle, #F5F3FF 0%, #FAFAF9 100%); border-radius: var(--radius-lg); margin-bottom: 6rem; border: 1px solid #EDE9FE;">
+    <div style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
+      <img src="assets/logo.png" alt="BolBol Logo" style="width: 80px; height: 80px; border-radius: 16px; box-shadow: var(--shadow-md);">
+      <h2 style="font-size: 2.25rem;">Start Your Child's Learning Journey Today</h2>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Get BolBol now on the Google Play Store and open a world of bilingual discovery, playful games, and voice stories.
+      </p>
+      <div style="margin-top: 1rem;">
+        <!-- Mock Download Badge -->
+        <a href="#" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem; border-radius: 20px;">
+          <i data-lucide="download"></i> Download for Android
+        </a>
+      </div>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Compatible with Android 8.0 (Oreo) and above.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="BolBol Logo" class="footer-logo-img">
+          <span class="brand-name footer-brand-name">BolBol</span>
+        </div>
+        <p>Creating safe, high-quality, and interactive educational mobile apps for early childhood development.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Modules</h4>
+        <ul>
+          <li><a href="#showcase">Alphabets (Hindi & English)</a></li>
+          <li><a href="#showcase">Counting 1-10</a></li>
+          <li><a href="#showcase">Colors Identification</a></li>
+          <li><a href="#storybook">Audio Storybook</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal & Policy</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html#coppa">COPPA Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact & Support</h4>
+        <ul>
+          <li><a href="mailto:support@bolbollearning.com"><i data-lucide="mail" style="width: 14px; vertical-align: middle; margin-right: 5px;"></i> support@bolbollearning.com</a></li>
+          <li><a href="#"><i data-lucide="github" style="width: 14px; vertical-align: middle; margin-right: 5px;"></i> View Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 BolBol Learning. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons Library & Scripts -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Responsive Mobile Menu Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      navMenu.classList.toggle('open');
+    });
+
+    // Story Carousel Data
+    const stories = [
+      {
+        genre: "Fables",
+        titleEn: "The Cat Who Wanted to Fly",
+        titleHi: "बिली जो उड़ना चाहती थी",
+        excerptEn: '"Once upon a time, Coco the little orange cat stared up at the skies. \'If birds can fly with wings, why can\'t I?\' Coco wondered. He constructed leaf-wings and jumped from the sofa..."',
+        excerptHi: '"एक समय की बात है, कोको नाम की छोटी नारंगी बिल्ली आसमान की ओर ताक रही थी। \'यदि पक्षी पंखों से उड़ सकते हैं, तो मैं क्यों नहीं?\' कोको ने सोचा। उसने पत्तों के पंख बनाए और सोफे से छलांग लगा दी..."',
+        image: "assets/story_cats.webp"
+      },
+      {
+        genre: "Animals / Fun",
+        titleEn: "The Dancing Hippo",
+        titleHi: "नाचता हुआ दरियाई घोड़ा",
+        excerptEn: '"Hugo was a massive hippo with a secret passion. Whenever the night wind whistled, Hugo couldn\'t help but shake and twist. \'Plump hippos don\'t dance,\' said the monkeys. But Hugo proved them wrong..."',
+        excerptHi: '"ह्यूगो एक विशाल दरियाई घोड़ा था जिसका एक गुप्त शौक था। जब भी रात की हवा चलती, ह्यूगो थिरकने और झूमने से खुद को रोक नहीं पाता। बंदरों ने कहा, \'मोटे दरियाई घोड़े नहीं नाचते।\' लेकिन ह्यूगो ने..."',
+        image: "assets/story_hippo.webp"
+      }
+    ];
+
+    let currentStoryIndex = 0;
+    let currentLang = 'en'; // 'en' or 'hi'
+
+    const storyImg = document.getElementById('story-img');
+    const storyGenre = document.getElementById('story-genre');
+    const storyTitle = document.getElementById('story-title');
+    const storyExcerpt = document.getElementById('story-excerpt');
+    const langEnBtn = document.getElementById('lang-en-btn');
+    const langHiBtn = document.getElementById('lang-hi-btn');
+    const dots = document.querySelectorAll('.dot');
+
+    function updateStoryCard() {
+      const story = stories[currentStoryIndex];
+      storyImg.src = story.image;
+      storyGenre.innerText = story.genre;
+      
+      if (currentLang === 'en') {
+        storyTitle.innerText = story.titleEn;
+        storyExcerpt.innerText = story.excerptEn;
+        langEnBtn.style.background = 'var(--primary)';
+        langEnBtn.style.color = 'white';
+        langHiBtn.style.background = 'var(--secondary)';
+        langHiBtn.style.color = 'white';
+      } else {
+        storyTitle.innerText = story.titleHi;
+        storyExcerpt.innerText = story.excerptHi;
+        langEnBtn.style.background = 'var(--secondary)';
+        langEnBtn.style.color = 'white';
+        langHiBtn.style.background = 'var(--primary)';
+        langHiBtn.style.color = 'white';
+      }
+
+      // Update dots
+      dots.forEach((dot, idx) => {
+        if (idx === currentStoryIndex) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+
+    // Languages Switch Click
+    langEnBtn.addEventListener('click', () => {
+      currentLang = 'en';
+      updateStoryCard();
+    });
+
+    langHiBtn.addEventListener('click', () => {
+      currentLang = 'hi';
+      updateStoryCard();
+    });
+
+    // Dots Navigation Click
+    dots.forEach(dot => {
+      dot.addEventListener('click', (e) => {
+        currentStoryIndex = parseInt(e.target.getAttribute('data-index'));
+        updateStoryCard();
+      });
+    });
+
+    // Auto rotate story slides every 7 seconds
+    setInterval(() => {
+      currentStoryIndex = (currentStoryIndex + 1) % stories.length;
+      updateStoryCard();
+    }, 7000);
+
+    // Parental Math Gate Validation
+    const gateQuestion = document.getElementById('parental-question');
+    const gateAnswer = document.getElementById('gate-answer');
+    const gateSubmit = document.getElementById('gate-submit');
+    const gateMessage = document.getElementById('gate-message');
+
+    let num1 = 6;
+    let num2 = 8;
+    let correctAnswer = num1 * num2;
+
+    function generateNewQuestion() {
+      num1 = Math.floor(Math.random() * 8) + 2; // 2 to 9
+      num2 = Math.floor(Math.random() * 8) + 2; // 2 to 9
+      correctAnswer = num1 * num2;
+      gateQuestion.innerText = `${num1} x ${num2} = ?`;
+      gateAnswer.value = '';
+    }
+
+    // Set initial question
+    generateNewQuestion();
+
+    gateSubmit.addEventListener('click', () => {
+      const userAns = parseInt(gateAnswer.value);
+      if (userAns === correctAnswer) {
+        gateMessage.style.color = 'var(--accent-teal)';
+        gateMessage.innerText = '✓ Success! Safe Parental settings unlocked.';
+        setTimeout(() => {
+          gateMessage.innerText = '';
+          generateNewQuestion();
+        }, 3000);
+      } else {
+        gateMessage.style.color = 'var(--accent-pink)';
+        gateMessage.innerText = '❌ Incorrect. Please try again!';
+        setTimeout(() => {
+          gateMessage.innerText = '';
+        }, 2000);
+      }
+    });
+  </script>
+</body>
+</html>
