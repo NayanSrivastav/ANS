@@ -1,0 +1,51 @@
+{
+  "stories": [
+    {
+      "id": 101,
+      "title": {
+        "en": "The Alien's Ice Cream Adventure 👽",
+        "hi": "एलियन का आइसक्रीम एडवेंचर 👽"
+      },
+      "genre": {
+        "en": "Science & Fun",
+        "hi": "विज्ञान और मज़ा"
+      },
+      "pages": {
+        "en": [
+          {
+            "text": "Zog the little green alien landed on Earth. He was very hot.",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cats.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_en_0.mp3"
+          },
+          {
+            "text": "He saw a sweet colorful food called ice cream and took a big bite.",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_hippo.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_en_1.mp3"
+          },
+          {
+            "text": "Brain freeze! Zog's antenna turned blue, but he loved the sweet taste.",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cats.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_en_2.mp3"
+          }
+        ],
+        "hi": [
+          {
+            "text": "ज़ोग नाम का छोटा हरा एलियन पृथ्वी पर उतरा। उसे बहुत गर्मी लग रही थी।",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cats.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_hi_0.mp3"
+          },
+          {
+            "text": "उसने आइसक्रीम नामक एक मीठा रंगीन भोजन देखा और एक बड़ा निवाला खा लिया।",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_hippo.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_hi_1.mp3"
+          },
+          {
+            "text": "दिमाग जम गया! ज़ोग का एंटीना नीला हो गया, लेकिन उसे मीठा स्वाद बहुत पसंद आया।",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cats.webp",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_101_hi_2.mp3"
+          }
+        ]
+      }
+    }
+  ]
+}
