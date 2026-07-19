@@ -61,34 +61,34 @@
         "en": [
           {
             "text": "Mintu the clever monkey lived on a sweet berry tree near the river.",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_en_0.mp3"
           },
           {
             "text": "A crocodile named Crocky wanted to catch Mintu for lunch.",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_croc.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_croc.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_en_1.mp3"
           },
           {
             "text": "Mintu tricked Crocky and jumped back to his tree safely. Clever Mintu!",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_en_2.mp3"
           }
         ],
         "hi": [
           {
             "text": "मिंटू नाम का चतुर बंदर नदी के किनारे एक मीठे जामुन के पेड़ पर रहता था।",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_hi_0.mp3"
           },
           {
             "text": "क्रॉकी नाम का मगरमच्छ मिंटू को दोपहर के भोजन के लिए पकड़ना चाहता था।",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_croc.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_croc.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_hi_1.mp3"
           },
           {
             "text": "मिंटू ने क्रॉकी को चकमा दिया और सुरक्षित रूप से अपने पेड़ पर कूद गया। चतुर मिंटू!",
-            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.webp",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_monkey.jpg",
             "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_102_hi_2.mp3"
           }
         ]
