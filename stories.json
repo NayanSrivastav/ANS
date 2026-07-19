@@ -93,6 +93,83 @@
           }
         ]
       }
+    },
+    {
+      "id": 103,
+      "title": {
+        "en": "The Little Cloud Who Wanted a Friend ☁️",
+        "hi": "छोटा बादल जो दोस्त चाहता था ☁️"
+      },
+      "genre": {
+        "en": "Bedtime Stories",
+        "hi": "सोने की कहानियाँ"
+      },
+      "pages": {
+        "en": [
+          {
+            "text": "High above the hills lived a tiny cloud named Puffy. He was the smallest cloud in the whole sky. The big clouds made giant castles and thunderstorms, but Puffy floated away all alone.",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_0.mp3"
+          },
+          {
+            "text": "He saw a drooping sunflower. 'I am so thirsty,' whispered the flower. Puffy squeezed with all his might: Plink! Plink! A gentle shower refreshed the sunflower!",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_1.mp3"
+          },
+          {
+            "text": "Next, he saw a family of rabbits feeling too hot. Puffy spread wide and made a cool, fluffy shadow. 'Best shade ever!' cheered the happy rabbits.",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_2.mp3"
+          },
+          {
+            "text": "A friendly rainbow smiled, 'Look behind you!' The sunflower, rabbits, birds, and butterflies were all waving. 'They are your friends because you were kind!'",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_3.mp3"
+          },
+          {
+            "text": "The big clouds drifted over, 'We heard how you helped the forest. Come make funny shapes with us!' Together they made elephants, ships, and giant ice cream cones!",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_4.mp3"
+          },
+          {
+            "text": "Puffy learned that true friendship comes from helping others. And on sunny afternoons, you can still see a tiny cloud shaped like a smiling heart. The End. 🌤️",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_en_5.mp3"
+          }
+        ],
+        "hi": [
+          {
+            "text": "पहाड़ियों से ऊँचे आसमान में पफ़ी नाम का एक छोटा सा बादल रहता था। वह पूरे आसमान में सबसे छोटा बादल था। बड़े बादल महल और तूफ़ान बनाते थे, पर पफ़ी अकेला तैरता रहा।",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_0.mp3"
+          },
+          {
+            "text": "उसने एक मुरझाया हुआ सूरजमुखी का फूल देखा। 'मुझे बहुत प्यास लगी है,' फूल ने कहा। पफ़ी ने अपनी पूरी ताक़त लगाई और छम-छम बारिश करके फूल को नया जीवन दिया!",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_1.mp3"
+          },
+          {
+            "text": "फिर उसने खरगोशों के एक परिवार को गर्मी से परेशान देखा। पफ़ी ने फैलकर एक ठंडी, प्यारी छाया बना दी। खरगोश खुशी से झूम उठे!",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_2.mp3"
+          },
+          {
+            "text": "एक प्यारे इंद्रधनुष ने मुस्कुराकर कहा, 'अपने पीछे देखो!' सूरजमुखी, खरगोश, पक्षी और तितलियाँ सब हाथ हिला रहे थे। 'तुम्हारी दयालुता ने इन्हें तुम्हारा दोस्त बना दिया है!'",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_3.mp3"
+          },
+          {
+            "text": "बड़े बादल भी आ गए, 'हमने सुना तुमने जंगल की मदद की। आओ हमारे साथ मज़ेदार आकृतियाँ बनाओ!' उन्होंने मिलकर हाथी, जहाज़ और आइसक्रीम बनाईं!",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_4.mp3"
+          },
+          {
+            "text": "पफ़ी ने सीखा कि दूसरों की मदद करने से ही सच्चे दोस्त मिलते हैं। और आज भी धूप वाले दिनों में आसमान में मुस्कुराते दिल जैसा बादल दिखता है। समाप्त। 🌤️",
+            "image": "https://nayansrivastav.github.io/ANS/assets/story_cloud_1.jpg",
+            "audio": "https://nayansrivastav.github.io/ANS/assets/audio/story_103_hi_5.mp3"
+          }
+        ]
+      }
     }
   ]
 }
